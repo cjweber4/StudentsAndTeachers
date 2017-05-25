@@ -1,0 +1,17 @@
+@model StudentsAndTeachers.Models.Student
+
+@{
+    ViewData["Title"] = "DeleteAll";
+}
+
+<h2>Delete All</h2>
+
+<h3>Are you sure you want to delete all the Students?</h3>
+<div>
+    <form asp-action="DeleteAll">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete All" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1> Managing Students and Teachers</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Manage Students</h2>
+        <a asp-area="" asp-controller="Students" asp-action="Index">View / Edit / Add / Import Students</a>
+    </div>
+    <div class="col-md-4">
+        <h2>Manage Teachers </h2>
+        <a asp-area="" asp-controller="Teachers" asp-action="Index">View / Edit / Add / Import Teachers</a>
+    </div>
+</div>

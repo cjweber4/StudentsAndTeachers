@@ -1,0 +1,16 @@
+@model StudentsAndTeachers.Models.Student
+
+@{
+    ViewData["Title"] = "Import";
+}
+
+<h3>Are you sure you want to Import Student Data?</h3>
+<div>
+    <form asp-action="Import">
+        <div class="form-actions no-color">
+            <input type="submit" value="Import" class="btn btn-default" /> |
+            <a asp-action="Index">Back to Student List</a>
+        </div>
+    </form>
+</div>
+
